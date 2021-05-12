@@ -19,16 +19,16 @@ function NavBar(props)
     useEffect( () => 
     {
         setTimeout(() => {
-            fs.readFile('./shopDetails.json', 'utf-8', (err, data) =>
+            fs.readFile('../Context/shopDetails.json', 'utf-8', (err, data) =>
             {
                 console.log(data)
-                const dataa = JSON.parse(data);
-                if(dataa.state != 0 && stop < 6)
+                const dataa = 0; //JSON.parse(data);
+                if(dataa != 0 && stop < 6)
                 {
                     setName('Log Out');
                     console.log("set")
                 }
-                else if(dataa.state == 0 && stop < 6)
+                else if(dataa == 0 && stop < 6)
                 {
                     console.log('unSet')
                     setName('Log In');
