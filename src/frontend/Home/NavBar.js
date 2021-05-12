@@ -4,6 +4,7 @@ import { useHistory } from 'react-router';
 import './navbar.css';
 import { GetDataContext } from '../Context/GetDataContext';
 
+
 const fs = require('browserify-fs')
 
 function NavBar(props)
@@ -18,7 +19,7 @@ function NavBar(props)
     useEffect( () => 
     {
         setTimeout(() => {
-            fs.readFile('/shopDetails.json', 'utf-8', (err, data) =>
+            fs.readFile('../Context/shopDetails.json', 'utf-8', (err, data) =>
             {
                 console.log(data)
                 const dataa = JSON.parse(data);
