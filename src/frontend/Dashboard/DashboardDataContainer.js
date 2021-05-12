@@ -129,7 +129,7 @@ function DashboardDataContainer()
       const reports = [
         <ReportCard reportName ='Sales Report' link=''/>,
         <ReportCard reportName ='Sales Summary Report' link='/salesSummery'/>,
-        <ReportCard reportName ='Purchase Report' link=''/>,
+        <ReportCard reportName ='Purchase Report' link='/purches'/>,
         <ReportCard reportName ='Purchase Summary Report' link=''/>,
         <ReportCard reportName ='Stock Balance Report' link='/stockBalance'/>,
         <ReportCard reportName ='Stock Balance Report' link=''/> ]
