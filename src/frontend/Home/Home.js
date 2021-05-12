@@ -4,18 +4,20 @@ import LogIn from './LogIn';
 import NavBar from './NavBar';
 
 import './home.css'
+import Footer from './Footer';
 
-const fs = require('browserify-fs');
+
 
 function Home(){
 
+    const fs = require('browserify-fs');
     setTimeout( function()
     {
         fs.readFile('./shopDetails.json', 'utf-8', (err, data) =>
         {
-            const dataa = 0;//JSON.parse(data);
+            const dataa = JSON.parse(data);
             console.log("set", dataa.state)
-            if(dataa != 0)
+            if(dataa.state != 0)
             {
                 //const dataa = JSON.parse(data);
                 console.log("set", dataa.recordsets[3][0].CompanyName)
