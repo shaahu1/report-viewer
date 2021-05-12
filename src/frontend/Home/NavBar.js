@@ -20,6 +20,7 @@ function NavBar(props)
         setTimeout(() => {
             fs.readFile('../Context/shopDetails.json', 'utf-8', (err, data) =>
             {
+                console.log(data)
                 const dataa = JSON.parse(data);
                 if(dataa.state != 0 && stop < 6)
                 {
