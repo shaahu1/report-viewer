@@ -1,0 +1,10 @@
+.homeBg
+{
+    width: 100%;
+    height: inherit;
+    background-image: url('../../imgs/back1.jpg');
+    background-size: cover;
+    height: 100vh;
+    position:fixed;
+    top: 0;
+}

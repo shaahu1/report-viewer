@@ -1,0 +1,94 @@
+
+
+
+.navbar_container
+{
+    width: 100%;
+    height: inherit;
+    padding: 10px 0px 0px 0px;
+    position:fixed;
+    box-shadow: 1px 0px 5px 0px black;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+.companyName span
+{
+    width: 30%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 90px;
+    font-size: 22px;
+    color: rgb(39, 126, 226);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+
+.logo
+{
+    margin-left: 30px;
+    width: 75px;
+}
+
+.linkItem_container
+{
+    float: right;
+    width: 40%;
+    margin-right: 30px;
+}
+.itemList
+{
+    width: 100%;
+    float: right;
+    list-style: none;
+    display: flex;
+}
+.itemList a{
+    color: gray;
+    text-decoration: none;
+}
+
+.itemList li 
+{
+    width: 25%;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+}
+
+.itemList li a
+
+:hover
+{
+    color: rgb(39, 126, 226);
+    cursor:pointer;
+}
+
+.btnContact
+{
+    margin-top: -5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(39, 126, 226);
+    color: gray;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+	overflow-x: auto;
+	white-space:nowrap;
+}
+::-webkit-scrollbar
+{
+	display: none;
+}
+
+.btnContact:hover
+{
+    background-color: rgb(39, 126, 226);
+    color: white;
+    cursor: pointer;
+}

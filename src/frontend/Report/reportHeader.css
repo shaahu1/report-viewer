@@ -1,0 +1,22 @@
+.header_container
+{
+    margin-left: 50px;
+}
+.header_shopAddress
+{
+    font-size: 18px;
+}
+.header_email
+{
+    font-size: 18px;
+}
+.header_title
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header_shopName
+{
+    font-size: 22px;
+}

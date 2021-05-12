@@ -1,0 +1,61 @@
+.reportBlock_containerSBR
+{
+    width: 90%;
+    height: 1500px;
+    margin-left: 5%;
+    padding : 50px 0px 20px;
+    margin-top: 60px;
+    background-color: rgb(225, 233, 238);
+    display: none;
+}
+
+.hr
+{
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin-left: 50px;
+}
+
+.data_container
+{
+    width: 90%;
+    height: 1200px;
+    margin-left: 5%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+table
+{
+    width: 100%;
+}
+.column1
+{
+    width: 18%;
+}
+.column2
+{
+    width: 27%;
+}
+.column3
+{
+    width: 10%;
+    text-align: center;
+}
+.column4, .column5, .column6
+{
+    width: 12%;
+    text-align: right;
+}
+
+.tableHeader
+{
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.tableHeader_container
+{
+    width: 90%;
+    margin-left: 5%;
+}

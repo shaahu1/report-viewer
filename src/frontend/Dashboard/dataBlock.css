@@ -1,0 +1,30 @@
+.dataBlock_container
+{
+    margin-top: 30px;
+    width: 23%;
+    height: 70px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0)  , white, white);
+    padding: 0px 0px 15px;
+    border-radius: 0px 0px 10px 10px;
+    margin-right: 2%;
+    z-index: 3;
+}
+
+.value_container
+{
+    font-size: 30px;
+    color: royalblue;
+}
+
+.titalDataBlock
+{
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.marTop
+{
+    margin-top: 10px;
+}

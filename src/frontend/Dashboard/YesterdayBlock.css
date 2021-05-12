@@ -1,0 +1,39 @@
+.YesterdayBlock_container
+{
+    width: 90%;
+    height: inherit;
+    background-color: white;
+    padding: 20px 0px 30px;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.yesterday_text
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.yestdayData_container
+{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.date_value
+{
+    float: right;
+    margin-right: 10%;
+}
+.yesday_tital
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.yesday_data
+{
+    margin-left: 10%;
+    font-size: 18px;
+    color: royalblue;
+}

@@ -1,0 +1,107 @@
+.footer_container
+{
+    width: 80%;
+    height: inherit;
+    padding: 50px 10% 20px 10%;
+    background-color: darkcyan;
+    color: white;
+}
+
+.companyDetails_container
+{
+    width: 30%;
+}
+
+.companyDetails_container span
+{
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.companyDetails_container p
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(207, 204, 204);
+}
+
+
+.content_container
+{
+    width: 35%;
+    margin-left: 7%;
+    padding-top: 3%;
+    display: flex;
+    font-weight: 400;
+}
+.content_container div:nth-child(2)
+{
+    margin-left: 8%;
+}
+
+.content_container ul
+{
+    list-style: none;
+    font-size: 16px;
+    margin-left: -20%;
+}
+.content_container ul li
+{
+    height: 30px;
+    
+}
+.content_container a
+{
+    color: white;
+    text-decoration: unset;
+}
+.content_container ul li ul li
+{
+    height: 25px;
+    font-size: 14px;
+}
+
+
+.contact_container
+{
+    width: 30%;
+    margin-left: 2%;
+    padding-top: 3%;
+    font-weight: 400;
+}
+.contact_container ul
+{
+    list-style: none;
+    margin-left: -10%;
+}
+.contact_container ul li
+{
+    height: 40px;
+}
+.contact_container img
+{
+    margin-right: 5%;
+    color: royalblue;
+}
+
+.hr
+{
+    width: 90%;
+    height: 1px;
+    margin-left: 5%;
+    background-color:rgb(71, 71, 71);
+    float: left;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.footer_bottom
+{
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+.DashboardDataContainer
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: inherit;
+    margin-top: 10px;
+}
+
+.flex
+{
+    display: flex;
+}
+.leftside
+{
+    width: 75%;
+    float: left;
+}
+.rightside
+{
+    width: 20%;
+    float: right;
+}
+
+.reportContainer
+{
+    margin-top: 50px;
+    width: 96%;
+    padding: 20px 0px 20px 2%;
+    height: inherit;
+    float: left;
+    overflow-x: scroll;
+    display: flex;
+}
+::-webkit-scrollbar
+{
+    width: 0px;
+}

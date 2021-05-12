@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.reportCard_container
+{
+    width: 180px;
+    height: inherit;
+    box-shadow: 1px 1px 5px 1px rgb(97, 97, 97);
+    margin-right: 50px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.reportCard_container:hover
+{
+    box-shadow: 1px 1px 5px 3px rgb(30, 126, 226);
+    cursor: pointer;
+}
+
+.tital
+{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: unset;
+    color: black;
+    text-decoration: unset;
+}
+
+.btn
+{
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    border: 2px solid rgb(30, 126, 226);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(75, 75, 75);
+}

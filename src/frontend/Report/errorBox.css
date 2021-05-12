@@ -1,0 +1,18 @@
+#errorBox_container
+{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px 0px 10px;
+    height: inherit;
+    background-color: rgba(255, 44, 44, 0.212);
+    display: none;
+}
+
+.errorMsg
+{
+    font-size: large;
+    font-weight: 700;
+    color: red;
+    word-spacing: 4px;
+}

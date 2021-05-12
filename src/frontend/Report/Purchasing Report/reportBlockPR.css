@@ -1,0 +1,44 @@
+.reportBlock_containerPR
+{
+    width: 90%;
+    height: inherit;
+    margin-left: 5%;
+    padding: 30px 0px 30px;
+    background-color: rgb(225, 233, 238);
+    display: none;
+}
+
+table
+{
+    width: 100%;
+}
+.column1
+{
+    width: 15%;
+}
+.column2
+{
+    width: 27%;
+}
+.column3
+{
+    width: 10%;
+    text-align: center;
+}
+.column4, .column5, .column6
+{
+    width: 13%;
+    text-align: right;
+}
+
+.tableHeader
+{
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.tableHeader_container
+{
+    width: 90%;
+    margin-left: 5%;
+}

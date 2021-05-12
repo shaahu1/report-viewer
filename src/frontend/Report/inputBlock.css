@@ -1,0 +1,91 @@
+
+
+.inputBlock_container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 0px 20px;
+    width: 80%;
+    height: inherit;
+    margin-left: 10%;
+    box-shadow: 1px 5px 10px 1px rgb(156, 156, 156);
+}
+
+.inputBlock_tital
+{
+    font-size: 25px;
+    font-weight: 800;
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: rgb(39, 126, 226);
+}
+
+.locationBlock_container
+{
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.listHeader
+{
+    color: rgb(39, 126, 226);
+}
+
+.locationBlock
+{
+    margin-left: 5%;
+    width: 32%;
+}
+
+.cashierBlock, .unitBlock
+{
+    width: 32%;
+    margin-left: 1%;
+}
+
+
+.ral
+{
+    margin-left: 15%;
+}
+
+.viewBtn_container
+{
+    width: 80%;
+    padding-left: 10%;
+    margin-top: 60px;
+    display: block;
+}
+.viewBtn
+{
+    width: 30%;
+    height: 35px;
+    border: 3px solid rgb(32, 103, 184);
+    color:  rgb(32, 103, 184);
+    font-size: 18px;
+    margin-left: 10%;
+    font-weight: 700;
+    background-color: white;
+}
+.viewBtn:hover
+{
+    background-color:  rgb(32, 103, 184);
+    color:  white;
+}
+
+.dateset_container
+{
+    margin-top: 50px;
+    padding-left: 5%;
+}
+.datePicker
+{
+    width: 50%;
+    margin-left: 5%;
+    color: rgb(39, 126, 226);
+}

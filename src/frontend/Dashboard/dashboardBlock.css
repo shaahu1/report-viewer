@@ -1,0 +1,43 @@
+
+
+.dashboard_container
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: inherit;
+    padding: 20px 0px 25px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    
+}
+
+.headerBar
+{
+    width: 100%;
+    height: inherit;
+    padding-bottom: 50px;
+}
+
+.titalDashboard
+{
+    font-size: 30px;
+    color: rgb(30, 126, 226);
+    font-weight: 900;
+    margin-left: 5%;
+}
+
+.shopName
+{
+    float: right;
+    margin-right: 5%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.shopAddress
+{
+    font-size: 15px;
+    float: right;
+    margin-right: 5%;
+}
+
