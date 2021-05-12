@@ -4,11 +4,11 @@ import { useHistory } from 'react-router-dom';
 import './navbar.css';
 import { GetDataContext } from '../Context/GetDataContext';
 
-const history = useHistory();
 const fs = require('browserify-fs')
 
 function NavBar(props)
 {
+    
     const { setConn } = useContext(GetDataContext)
 
     const history = useHistory();

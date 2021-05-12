@@ -5,5 +5,5 @@
 
 [[redirects]]
  from = '/*'
- to = '../piblic/index.html'
+ to = '/index.html'
  state = 200
