@@ -14,9 +14,9 @@ function Home(){
     {
         fs.readFile('./shopDetails.json', 'utf-8', (err, data) =>
         {
-            const dataa = JSON.parse(data);
+            const dataa = 0;//JSON.parse(data);
             console.log("set", dataa.state)
-            if(dataa.state != 0)
+            if(dataa != 0)
             {
                 //const dataa = JSON.parse(data);
                 console.log("set", dataa.recordsets[3][0].CompanyName)
