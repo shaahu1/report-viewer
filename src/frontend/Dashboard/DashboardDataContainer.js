@@ -43,6 +43,7 @@ function DashboardDataContainer()
         {
             fs.readFile('./todaySale.json', 'utf-8', (err, data) => {
                 const dataa =  JSON.parse(data);
+                console.log('toDay', data)
                 if (dataa.state != 0 && stop == 0)
                 {
                     setToday(dataa && dataa.recordsets[0][0] || '')
