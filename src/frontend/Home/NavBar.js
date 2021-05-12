@@ -46,7 +46,7 @@ function NavBar(props)
     function link(link) {
 
         if (link === 1)
-            history.push('/dashboard')
+            history.push('/dashboard');
     }
 
 
