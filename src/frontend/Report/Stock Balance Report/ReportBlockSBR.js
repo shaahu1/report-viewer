@@ -1,5 +1,4 @@
-import React, { useContext, useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import React, { useContext, useEffect, useState } from 'react';
 import ReportHeader from '../ReportHeader';
 
 import {GetDataContext} from '../../Context/GetDataContext'
@@ -10,7 +9,7 @@ function ReportBlockSBR() {
 
     const {stockBalance} = useContext(GetDataContext);
 
-    const [data , setData] = useState([]);
+    const [data , setData] = useState([])
 
     function currencyFormat(num) {
         return num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')

@@ -1,5 +1,4 @@
-import React, { useContext, useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import React, { useContext, useEffect, useState } from 'react';
 import ErrorBox from '../ErrorBox';
 
 import { GetDataContext } from '../../Context/GetDataContext';
@@ -20,9 +19,9 @@ function InputBlockPR() {
         supplier:''
     }
 
-    const [locations, setLocation] = useState([]);
+    const [locations, setLocation] = useState([])
     const [suppliers, setSupplier] =useState([])
-    const [data, setData] = useState([]);
+    const [data, setData] = useState([])
 
     useEffect( () => {
 
