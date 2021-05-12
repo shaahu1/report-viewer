@@ -18,7 +18,7 @@ function NavBar(props)
     useEffect( () => 
     {
         setTimeout(() => {
-            fs.readFile('/shopDetails.json', 'utf-8', (err, data) =>
+            fs.readFile('../Context/shopDetails.json', 'utf-8', (err, data) =>
             {
                 const dataa = JSON.parse(data);
                 if(dataa.state != 0 && stop < 6)
