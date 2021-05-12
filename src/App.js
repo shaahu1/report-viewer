@@ -4,7 +4,7 @@ import GetDataContextProvider from './frontend/Context/GetDataContext';
 import Home from './frontend/Home/Home';
 import Dashboard from './frontend/Dashboard/Dashboard';
 import StockBalanceRpt from './frontend/Report/Stock Balance Report/StockBalanceRpt';
-import PurchasingRpt from './frontend/Report/Purchasing Report/PurchasingRpt';
+import PurchasingRpt from './frontend/Report/PurchasingReport/PurchasingRpt';
 
 
 function App() {
