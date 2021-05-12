@@ -19,16 +19,16 @@ function NavBar(props)
     useEffect( () => 
     {
         setTimeout(() => {
-            fs.readFile('../Context/shopDetails.json', 'utf-8', (err, data) =>
+            fs.readFile('./shopDetails.json', 'utf-8', (err, data) =>
             {
                 console.log(data)
-                const dataa = 0; //JSON.parse(data);
-                if(dataa != 0 && stop < 6)
+                const dataa = JSON.parse(data);
+                if(dataa.state != 0 && stop < 6)
                 {
                     setName('Log Out');
                     console.log("set")
                 }
-                else if(dataa == 0 && stop < 6)
+                else if(dataa.state == 0 && stop < 6)
                 {
                     console.log('unSet')
                     setName('Log In');
@@ -43,8 +43,10 @@ function NavBar(props)
         }, 1000);
     },[stop])
 
-    function link() {
-        history.push('/dashboard');
+    function link(link) {
+
+        if (link === 1)
+            history.push('/dashboard');
     }
 
 
@@ -75,7 +77,7 @@ function NavBar(props)
                     <ul className = 'itemList'>
                         <li> Products </li>
                         <li> Documentation </li>
-                        <li> <div onClick={link} > Dashboard </div></li>
+                        <li> <a href='/dashboard' onClick={link(1)}> Dashboard </a></li>
                         <li>  <button className='btnContact' onClick={goTo}> {name} </button> </li>
                         
                     </ul>
