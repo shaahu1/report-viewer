@@ -2,7 +2,7 @@
   "name": "report",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost/4000",
+  "proxy": "https://reportviewer1.herokuapp.com",
   "dependencies": {
     "@heroku-cli/plugin-apps": "^7.53.0",
     "@testing-library/jest-dom": "^5.11.4",
