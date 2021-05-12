@@ -4,7 +4,6 @@ import LogIn from './LogIn';
 import NavBar from './NavBar';
 
 import './home.css'
-import Footer from './Footer';
 
 const fs = require('browserify-fs');
 

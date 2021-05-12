@@ -4,7 +4,7 @@ import { useHistory } from 'react-router';
 import './navbar.css';
 import { GetDataContext } from '../Context/GetDataContext';
 
-
+const history = useHistory();
 const fs = require('browserify-fs')
 
 function NavBar(props)
@@ -43,7 +43,11 @@ function NavBar(props)
         }, 1000);
     },[stop])
 
-    
+    function link(link) {
+
+        if (link === 1)
+            history.push('/dashboard')
+    }
 
 
     function goTo()
@@ -73,7 +77,7 @@ function NavBar(props)
                     <ul className = 'itemList'>
                         <li> Products </li>
                         <li> Documentation </li>
-                        <li> <a href='/dashboard'> Dashboard </a></li>
+                        <li> <a href='/dashboard' onClick={link(1)}> Dashboard </a></li>
                         <li>  <button className='btnContact' onClick={goTo}> {name} </button> </li>
                         
                     </ul>
