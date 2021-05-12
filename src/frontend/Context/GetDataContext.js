@@ -37,7 +37,12 @@ class GetDataContextProvider extends React.Component {
     getShopDetails = () => {  // get location list, cashier list , unit list and shop details
             fs.writeFile('./shopDetails.json', JSON.stringify({"state":0}))
             axios
-            .get('https://reportviewer1.herokuapp.com/cashiers')
+            .get('https://reportviewer1.herokuapp.com/cashiers',
+            {
+                headers: {
+                    'Access-Control-Allow-Origin': true,
+                  },
+            })
             .then((res) => {
                 
                 if(res.data !== ''){
