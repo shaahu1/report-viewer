@@ -43,10 +43,9 @@ function NavBar(props)
         }, 1000);
     },[stop])
 
-    function link(link) {
+    function link() {
 
-        if (link === 1)
-            history.push('/dashboard');
+        history.push('/dashboard');
     }
 
 
@@ -77,7 +76,7 @@ function NavBar(props)
                     <ul className = 'itemList'>
                         <li> Products </li>
                         <li> Documentation </li>
-                        <li> <a href='/dashboard' onClick={link(1)}> Dashboard </a></li>
+                        <li> <a href='/dashboard' onClick={link}> Dashboard </a></li>
                         <li>  <button className='btnContact' onClick={goTo}> {name} </button> </li>
                         
                     </ul>
